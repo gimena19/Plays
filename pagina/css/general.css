@@ -1,0 +1,191 @@
+body {
+    background-color: black;
+}
+
+.cuerpo{
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+/*
+.pencil{
+    fill:white;
+}
+*/
+.navbar{
+    margin-bottom: 0px;
+    border-bottom: 1px solid #2bc999;
+}
+
+.pruebaNav .navbar-nav > li > a:hover, 
+.pruebaNav .navbar-nav > li > a:focus {
+color: #c1c2c6 !important;   /*Sets the text hover color on navbar*/
+}
+
+.pruebaNav .navbar-nav > .active > a,
+.pruebaNav .navbar-nav > .active >   
+ a:hover, .pruebaNav .navbar-nav > .active > a:focus {
+     color: #c1c2c6 !important;  /*BACKGROUND color for active*/
+     background-color: #2bc999 !important;
+     border-radius: 2px;
+}
+
+.h2 .pruebaNav .navbar-nav > li > a {
+    color: #2bc999 !important; /*Change active text color here*/
+}
+
+.pruebaNav {
+    border-color: #2bc999 !important; /*Color dorado*/
+}
+
+/*Para cuando el dropdown de la barra de navegación tiene el foco o el cursor se encuetra sobre él*/
+.navbar .navbar-nav > li.open > a:hover,
+.navbar .navbar-nav > li.open > a:focus {
+  background-color: #2bc999 !important;
+  color :#c1c2c6 !important;
+}
+
+/*Para el menu del dropdown que se encuentra en la barra de navegación*/
+.dropdown-menu
+{
+    background-color: black; /*color del fondo de la lista del submenú*/
+    border-color: #2bc999; 
+}
+
+.dropdown-divider{
+    
+ border-top: 1px solid #2bc999;
+}
+
+/*Color del texto del dropdown que se encuentra en la barra de navegación*/
+.dropdown-menu , .asideTitle{
+    color: #2bc999;
+}
+
+.contenido{
+    padding-left: 5px;
+}
+
+.contenido > h2{
+    color: #2bc999;
+}
+
+.dropdown-menu :hover,
+.dropdown-menu :focus {
+    color: white;
+    text-decoration: none;
+    background-color: #2bc999 !important;  /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    /*background-color: silver;*/ /*Change rollover cell color here*/
+}
+
+/* Para el logo que se encuentra debajo de la barra de navegación */
+.fondoLogo
+{
+    background-image: url(../imagenes/fondoLogo.jpg);
+    height: 100px;
+    margin-top: 25px;
+}
+
+.logo{
+    position: relative;
+    top: -25px;
+    height: 152px;
+    width: 153px;
+    margin: 0 auto;
+    background-image: url("../imagenes/logo152.png");
+    
+    -webkit-transition:all .1s ease; /* Safari y Chrome */
+    -moz-transition:all .1s ease; /* Firefox */
+    -o-transition:all .1s ease; /* IE 9 */
+    -ms-transition:all .1s ease; /* Opera */
+}
+
+.logo:hover {
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+}
+
+.pencil, .x.card-Img{
+    opacity: 0.6;
+    -webkit-transition:all .1s ease; /* Safari y Chrome */
+    -moz-transition:all .1s ease; /* Firefox */
+    -o-transition:all .1s ease; /* IE 9 */
+    -ms-transition:all .1s ease; /* Opera */
+}
+
+.pencil:hover,.x:hover {
+    opacity: 1;
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+
+.nombre{
+    color: #2bc999;
+    margin-top: 25px;
+}
+
+p{
+    color: 	#c1c2c6;
+}
+
+.aside {;
+    margin-top:25px;
+    max-height: 400px;
+    
+    overflow: auto;
+}
+.aside  a{
+    text-decoration-color: #c1c2c6;
+}
+
+.aside h2{
+    color: #c1c2c6;
+    font-size: 1.2em;
+    font-family:"Estrangelo Edessa";
+    transition: all .1s ease;
+    margin-bottom: 20px;
+}
+
+
+.aside h2:hover{
+    transform: translate(5px,0px);
+}
+
+.articulos{
+    border-left: 1px solid #2bc999;
+}
+
+.usuarios{
+    border: 1px solid #2bc999;
+    color: #c1c2c6;
+    border-radius: 25px;
+}
+
+.card-Img{
+    opacity: 0.9;
+    -webkit-transition:all .1s ease; /* Safari y Chrome */
+    -moz-transition:all .1s ease; /* Firefox */
+    -o-transition:all .1s ease; /* IE 9 */
+    -ms-transition:all .1s ease; /* Opera */
+}
+
+.card-Img:hover {
+    opacity: 1;
+    -webkit-transform:scale(1.01);
+    -moz-transform:scale(1.01);
+    -ms-transform:scale(1.01);
+    -o-transform:scale(1.01);
+    transform:scale(1.01);
+}

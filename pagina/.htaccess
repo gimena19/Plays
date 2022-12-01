@@ -1,0 +1,5 @@
+#RewriteBase /
+RewriteEngine on
+
+#quita el php de la pagina indicada
+RewriteRule ^pagina1 pagina1.php

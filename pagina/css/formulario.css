@@ -1,0 +1,27 @@
+h1
+{
+    color: #2bc999;
+}
+
+label
+{
+    color: #2bc999;
+}
+
+.vistaPrevia{
+    display: none;
+}
+
+.card{
+    border-color: #2bc999 !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.card-header{
+    background-color:#2bc999 !important;
+    color: #c1c2c6 !important;
+}
+
+.card-body{
+    background-color: black !important;
+}
